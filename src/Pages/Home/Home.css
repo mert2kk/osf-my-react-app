@@ -1,0 +1,28 @@
+.home{
+    margin-left: auto;
+    margin-right: auto;
+}
+.slider{
+    width: 100%;
+    mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0,));
+    z-index: -1;
+    margin-bottom: -150px;
+}
+.home__row{
+    display:inline-flex;
+    flex-direction: row;
+    width: 100%;
+    place-content: space-evenly;
+}
+.home__row2{
+    display: inline-flex;
+    flex-direction:row;
+    width: 100%;
+    place-content: space-evenly;
+}
+.banner{
+    width: 100%;
+}
+.home > h1{
+    text-align: center;
+}
