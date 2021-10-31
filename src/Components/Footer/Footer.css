@@ -1,0 +1,43 @@
+.footerarea{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    min-height: 200px;
+    color: black;
+}
+.footerarea__links{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content: space-between;
+    height: 300px;
+    font-size: small;
+}
+.col3{
+    align-items: center;
+
+}
+.footerarea__linkarea{
+    text-align: left;
+    display:inherit;
+    
+    ;
+}
+.footerarea__linkarea > p{
+    margin: auto;
+}
+.footerarea__linkarea > div > h{
+    margin: auto;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+.icons > img {
+    margin:3px;
+}
+.footerarea__links > h1 {
+
+    font-weight: lighter;
+}

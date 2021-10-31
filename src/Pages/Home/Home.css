@@ -13,12 +13,15 @@
     flex-direction: row;
     width: 100%;
     place-content: space-evenly;
+    background-color: rgb(46, 49, 49);
 }
 .home__row2{
     display: inline-flex;
     flex-direction:row;
     width: 100%;
     place-content: space-evenly;
+    background-color: rgb(46, 49, 49);
+
 }
 .banner{
     width: 100%;
@@ -26,3 +29,13 @@
 .home > h1{
     text-align: center;
 }
+.popularitems{
+    margin: auto;
+    display: flex;
+    background-color: rgb(46, 49, 49);
+}
+.benefits{
+    width: 100%;
+    margin-top: -5px;
+}
+
